@@ -28,6 +28,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<Content Include="..\..\..\..\..\AppData\Roaming\Microsoft\UserSecrets\c7a3a51e-4319-4038-b522-9ed24fd5ef66\secrets.json" Link="secrets.json" />
 		<Content Include="SampleData\TokenizerSample.txt">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Content>

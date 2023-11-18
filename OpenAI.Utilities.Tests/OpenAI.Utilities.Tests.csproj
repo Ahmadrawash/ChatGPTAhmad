@@ -11,6 +11,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="..\..\..\..\..\AppData\Roaming\Microsoft\UserSecrets\c7a3a51e-4319-4038-b522-9ed24fd5ef66\secrets.json" Link="secrets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
     <PackageReference Include="Shouldly" Version="4.2.1" />

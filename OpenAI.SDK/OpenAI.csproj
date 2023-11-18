@@ -45,6 +45,7 @@
 		<EmbeddedResource Include="Tokenizer\GPT3\vocab.bpe" />
 	</ItemGroup>
 	<ItemGroup>
+		<None Include="..\..\.gitignore" Link=".gitignore" />
 		<None Include="..\Readme.md">
 			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>
