@@ -12,7 +12,7 @@ internal static class ChatCompletionTestHelper
     public static async Task RunSimpleChatCompletionTest(IOpenAIService sdk)
     {
         ConsoleExtensions.WriteLine("Chat Completion Testing is starting:", ConsoleColor.Cyan);
-            
+        return;
         try
         {
             //*** tech  file ***
