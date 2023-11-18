@@ -9,6 +9,7 @@ using LaserCatEyes.HttpClientListener;
 
 System.Console.WriteLine("***************** BEGIN **************");
 
+
 var builder = new ConfigurationBuilder()
     .AddJsonFile("ApiSettings.json")
     .AddUserSecrets<Program>();
